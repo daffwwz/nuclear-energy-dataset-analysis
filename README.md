@@ -20,16 +20,16 @@ Nuclear energy is one of the most reliable and cleanest source of energy that pl
 
 ## Findings
 ### Data Statistics Summary
-| index   |      Year |   Nuclear Generating Units, Net Summer Capacity |   Nuclear Electricity Net Generation |   Nuclear Share of Electricity Net Generation |   Nuclear Generating Units, Capacity Factor |   YoY Growth (%) |
-|---------|-----------|-------------------------------------------------|--------------------------------------|-----------------------------------------------|---------------------------------------------|------------------|
-| count   |  614      |                                        614      |                                614   |                                     614       |                                    614      |       613        |
-| mean    | 1998.08   |                                         85.6071 |                              49806.5 |                                      17.2166  |                                     76.4963 |         0.315432 |
-| std     |   14.7821 |                                         23.2862 |                              19647.1 |                                       4.17584 |                                     16.2811 |         1.25307  |
-| min     | 1973      |                                         14.533  |                               5697   |                                       3.9     |                                     34.6    |        -2.65354  |
-| 25%     | 1985      |                                         78.7078 |                              31481.5 |                                      15.525   |                                     61.025  |         0        |
-| 50%     | 1998      |                                         98.533  |                              57362   |                                      18.8     |                                     79.15   |         0        |
-| 75%     | 2011      |                                         99.628  |                              65169.2 |                                      20.1     |                                     91.875  |         0        |
-| max     | 2024      |                                        102.206  |                              74649   |                                      22.9     |                                    101.6    |        15.797    |
+| index   |   Nuclear Generating Units, Net Summer Capacity |   Nuclear Electricity Net Generation |   Nuclear Share of Electricity Net Generation |   Nuclear Generating Units, Capacity Factor |
+|---------|-------------------------------------------------|--------------------------------------|-----------------------------------------------|---------------------------------------------|
+| count   |                                        614      |                                614   |                                     614       |                                    614      |
+| mean    |                                         85.6071 |                              49806.5 |                                      17.2166  |                                     76.4963 |
+| std     |                                         23.2862 |                              19647.1 |                                       4.17584 |                                     16.2811 |
+| min     |                                         14.533  |                               5697   |                                       3.9     |                                     34.6    |
+| 25%     |                                         78.7078 |                              31481.5 |                                      15.525   |                                     61.025  |
+| 50%     |                                         98.533  |                              57362   |                                      18.8     |                                     79.15   |
+| 75%     |                                         99.628  |                              65169.2 |                                      20.1     |                                     91.875  |
+| max     |                                        102.206  |                              74649   |                                      22.9     |                                    101.6    |
 
 ### Net Summer Capacity of Nuclear Energy
 This timeseries data explain the maximum output of nuclear generating units during peak summer conditions. This data basically tells us **how much reliable generation** we can count on during **peak demand periods** (usually in summer). The line plot shows an overall increase in the net capacity of nuclear power, primarily during **the Major Expansion Era (1973–1990)** (highlighted in green), when the number of operating plants rose from 109 to 413. In the subsequent period from 1990 to 2003, there were **59 new plants commissioned and 50 plants shut down**, indicating a **slowdown in growth** caused by **the Three Mile Island (1979)** and **the Chernobyl Accident (1986)**. The most recent five-year data also shows a **decline in net capacity**, reflected by a **total annual growth rate of –3.74%** [[1](https://www.oecd.org/en/publications/forty-years-of-uranium-resources-production-and-demand-in-perspective_9789264028074-en.html)].
