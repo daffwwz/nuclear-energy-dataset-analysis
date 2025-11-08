@@ -18,6 +18,9 @@ Nuclear energy is one of the most reliable and cleanest source of energy that pl
 | `Nuclear Share of Electricity Net Generation` | The percentage share of total electricity net generation coming from nuclear power. | Float |
 | `Nuclear Generating Units, Capacity Factor` | The capacity factor (actual output vs potential output) of nuclear generating units. | Float |
 
+## Data Cleaning
+Deleted the 'Nuclear Generating Units, Total Operable Units' column because of too many missing data 'Not Available'.
+
 ## Findings
 ### Data Statistics Summary
 | index   |   Nuclear Generating Units, Net Summer Capacity |   Nuclear Electricity Net Generation |   Nuclear Share of Electricity Net Generation |   Nuclear Generating Units, Capacity Factor |
