@@ -21,5 +21,5 @@ Nuclear energy is one of the most reliable and cleanest source of energy that pl
 ## Findings
 ### Net Summer Capacity of Nuclear Energy
 This timeseries data explain the maximum output of nuclear generating units during peak summer conditions. This data basically tells us **how much reliable generation** we can count on during **peak demand periods** (usually in summer).
-![alt text](images/net_summer_capacity.png)
+![alt text](images/net_summer_capacity_annotated.png)
 
