@@ -1,9 +1,9 @@
-# Nuclear Energy Overview Dataset Analytics Project
+# Nuclear Energy Overview Dataset Analytics and Forecasting Project
 ## Project Overview
 Nuclear energy is one of the most reliable and cleanest source of energy that plays a big role in energy transition and climate change mitigation. Public perception, policy decisions, and operational constraints may contribute to the dynamics of its utilization over time despite of its capability to have high capacity factor, means that nuclear energy having a high ratio of actual electricity generated to the maximum possible electricity the plant could have produced if it had operated at full power continuously. This project analyzes this data in order to expose trends and other insights in the nuclear energy sector.
 
 ## Tools Used
-**1. Python:** Pandas, Matplotlib, Seaborn, Data Wrangler Extension for VS Code
+**Python:** Pandas, Matplotlib, Seaborn, Data Wrangler Extension for VS Code, Sci-kit Learn, XGBoost
 
 ## Dataset Source
 **Kaggle**:	[Nuclear Energy Datasets](https://www.kaggle.com/datasets/alistairking/nuclear-energy-datasets)
@@ -18,9 +18,13 @@ Nuclear energy is one of the most reliable and cleanest source of energy that pl
 | `Nuclear Share of Electricity Net Generation` | The percentage share of total electricity net generation coming from nuclear power. | Float |
 | `Nuclear Generating Units, Capacity Factor` | The capacity factor (actual output vs potential output) of nuclear generating units. | Float |
 
+## Result Summary
+
 ## Data Cleaning
 Removed the `Nuclear Generating Units, Total Operable Units` column because of too many missing data `Not Available`.
 
+## Forecasting Method
+The method used for the time series forecasting is by using `XGBoost` model to predict the `Nuclear Electricity Net Generation` as the target value. The feature added for the forecasting are `lag_7`, `rolling_mean_1`, `rolling_std_1`, `rolling_mean_7`, `rolling_std_7`, `rolling_mean_30`, `rolling_std_30`, `Month`, `Year`, `Quarter`, `DayOfWeek`, and `DayOfYear`. 
 ## Findings
 ### Data Statistics Summary
 | index   |   Nuclear Generating Units, Net Summer Capacity |   Nuclear Electricity Net Generation |   Nuclear Share of Electricity Net Generation |   Nuclear Generating Units, Capacity Factor |
